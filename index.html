@@ -1,1 +1,126 @@
-<p>Hello Github IO</p>>
+
+<div style='display: flex; flex-direction: column; align-items: center;'>
+    <p style='margin: auto; display : inline-flex; width: auto; '>Hello Github IO</p>
+    <p style='margin: auto; display : inline-flex; width: auto; '>ฝ่กด้วยจารย์พี</p>
+    <p style='margin: auto; display : inline-flex; width: auto; '>Try hover</p>
+
+    <div class='container'>
+        <div class='line-wrapper_01'>
+            <div class='line line_01'></div>
+            <div class='line line_02'></div>
+            <div class='line line_03'></div>
+        </div>
+
+        <div class='line-wrapper_02'>
+            <div class='line line_01'></div>
+            <div class='line line_02'></div>
+            <div class='line line_03'></div>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    body, html{
+        margin: 0;
+    }
+
+    .container{
+        width: 50vw;
+        height: 100px;
+        padding: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:black;
+    }
+
+    .line-wrapper_01, .line-wrapper_02{
+        width: 40px;
+        height: 40px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        overflow: hidden;
+
+        background-color:black;
+    }
+
+    .line{
+        height: 4px;
+        width: 40px;
+
+        background-color: white;
+    }
+
+    /* Left */
+
+    .line-wrapper_01 .line{
+        transition: all 0.3s;
+    }
+    
+    .line-wrapper_01:hover .line_01{
+        transform: rotateZ(45deg);
+        transform-origin: 0 100%;
+        width: calc(40px * 1.25);
+    }
+
+    .line-wrapper_01:hover .line_02{
+        opacity: 0;
+    }
+
+    .line-wrapper_01:hover .line_03{
+        transform: rotateZ(-45deg);
+        transform-origin: 0 0;
+        width: calc(40px * 1.25);
+    }
+
+    /* Right */
+    .line-wrapper_02{
+        align-items: center;
+    }
+
+    .line-wrapper_02 .line{
+        position: relative;
+        transition: top 0.3s 0.3s, bottom 0.3s 0.3s, transform 0.3s, opacity 0s 0.3s;
+    }
+
+    .line-wrapper_02:hover .line{
+        position: relative;
+        transition: top 0.3s, bottom 0.3s, transform 0.3s 0.3s, opacity 0s 0.3s;
+    }
+
+    .line-wrapper_02 .line_01{
+        top: 0;
+    }
+
+    .line-wrapper_02:hover .line_01{
+        top: calc(50% - 2px);
+        transform: rotateZ(-45deg);
+        transform-origin: 50% 50%;
+        width: calc(40px * 1.25);
+    }
+
+    .line-wrapper_02:hover .line_02{
+        opacity: 0;
+    }
+
+    .line-wrapper_02 .line_03{
+        bottom: 0;
+    }
+
+
+    .line-wrapper_02:hover .line_03{
+        bottom: calc(50% - 2px);
+        transform: rotateZ(45deg);
+        transform-origin: 50% 50%;
+        width: calc(40px * 1.25);
+    }
+</style>
