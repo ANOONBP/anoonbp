@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.55ba0450.chunk.css",
+    "main.css": "/static/css/main.4da2461f.chunk.css",
     "main.js": "/static/js/main.ccf95fd5.chunk.js",
     "main.js.map": "/static/js/main.ccf95fd5.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.909adf55.chunk.js": "/static/js/2.909adf55.chunk.js",
     "static/js/2.909adf55.chunk.js.map": "/static/js/2.909adf55.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.508c7291b97fec2cb4c2ad08a2d30524.js": "/precache-manifest.508c7291b97fec2cb4c2ad08a2d30524.js",
+    "precache-manifest.46eaa858d76c604b9546104f5bc18ee7.js": "/precache-manifest.46eaa858d76c604b9546104f5bc18ee7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.55ba0450.chunk.css.map": "/static/css/main.55ba0450.chunk.css.map",
+    "static/css/main.4da2461f.chunk.css.map": "/static/css/main.4da2461f.chunk.css.map",
     "static/media/about_us.png": "/static/media/about_us.e02660a1.png",
     "static/media/about_us_header.png": "/static/media/about_us_header.cda4b3a8.png",
     "static/media/car_exchange.png": "/static/media/car_exchange.d00db689.png",
